@@ -1,8 +1,7 @@
-package com.jdk8.features.stream.ListCompStream;
+package com.jdk8.features.stream.listCompStream;
 
 import com.jdk8.features.stream.Order;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

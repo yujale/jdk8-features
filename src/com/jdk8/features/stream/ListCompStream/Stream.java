@@ -30,5 +30,4 @@ public class Stream {
         .map(Order::getName).collect(Collectors.toList());
     System.out.println(result);
   }
-
 }

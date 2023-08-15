@@ -13,5 +13,4 @@ public class FilterDemo {
         .collect(Collectors.toList());
     System.out.println("Long words: " + longWords);
   }
-
 }

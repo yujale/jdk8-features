@@ -22,11 +22,11 @@ public class Predicate {
 
   public static void main(String[] args) {
     ArrayList<Student> students = new ArrayList<>();
-    students.add(new Student("张三", 18, 80));
-    students.add(new Student("李四", 19, 90));
-    students.add(new Student("王五", 20, 100));
-    students.add(new Student("赵六", 21, 60));
-    students.add(new Student("田七", 22, 70));
+    students.add(new Student(1,"张三", 18, 80));
+    students.add(new Student(2,"李四", 19, 90));
+    students.add(new Student(3,"王五", 20, 100));
+    students.add(new Student(4,"赵六", 21, 60));
+    students.add(new Student(5,"田七", 22, 70));
 
     List<Student> result = filter(students, student -> student.getAge() > 20);
 
